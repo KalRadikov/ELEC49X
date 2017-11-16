@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Capstone490Context-Web.config Connection String" description="Capstone490Context Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:capstone49020171029074249dbserver.database.windows.net,1433;Initial Catalog=Capstone;Persist Security Info=False;User ID=kalrad;Password=Kalel!2345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kalra\\OneDrive\\Documents\\Queen's\\Year\ 4\\Capstone\ 490\\Capstone490\\Capstone490\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Capstone490Context']/@connectionString" />
+  </parameter>
+</parameters>
