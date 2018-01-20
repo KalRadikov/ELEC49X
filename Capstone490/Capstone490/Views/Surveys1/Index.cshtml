@@ -1,0 +1,297 @@
+﻿@model IEnumerable<Capstone490.Models.Survey>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tag)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q6)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q7)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q8)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q9)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q10)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q11)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q12)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q13)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q14)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q15)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q16)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q17)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q18)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q19)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q20)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q21)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q22)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q23)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q24)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q25)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q26)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q27)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q28)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q29)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q30)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q31)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q32)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q33)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q34)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q35)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q36)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q37)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q38)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q39)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q40)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q41)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q42)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q43)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Q44)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tag)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q6)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q7)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q8)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q9)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q10)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q11)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q12)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q13)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q14)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q15)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q16)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q17)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q18)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q19)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q20)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q21)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q22)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q23)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q24)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q25)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q26)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q27)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q28)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q29)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q30)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q31)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q32)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q33)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q34)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q35)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q36)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q37)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q38)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q39)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q40)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q41)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q42)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q43)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Q44)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SurveyID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SurveyID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SurveyID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -19,8 +19,8 @@ namespace Capstone490.Models
         {
         }
 
-        public System.Data.Entity.DbSet<Capstone490.Models.Question> Questions { get; set; }
-
         public System.Data.Entity.DbSet<Capstone490.Models.Survey> Surveys { get; set; }
+
+        public System.Data.Entity.DbSet<Capstone490.Models.Interests> Interests { get; set; }
     }
 }

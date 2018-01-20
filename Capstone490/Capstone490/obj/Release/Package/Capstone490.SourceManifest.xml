@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\Capstone 490\Capstone490\Capstone490\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\Capstone 490\Capstone490\Capstone490\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\Capstone 490\Capstone490\Capstone490\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

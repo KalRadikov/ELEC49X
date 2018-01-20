@@ -1,0 +1,99 @@
+﻿@model Capstone490.Models.Survey
+@{
+    ViewBag.Title = "OCEAN_Result";
+}
+
+<h2>OCEAN Result</h2>
+
+<p>
+    <h2>@ViewBag.Tag</h2>
+</p>
+
+<table class="table">
+    <tr>
+        <th><font size="6">O</font>penness</p></th>
+        <th><font size="6">C</font>onscientiousness</p></th>
+        <th><font size="6">E</font>xtraversion</p></th>
+        <th><font size="6">A</font>greeableness</p></th>
+        <th><font size="6">N</font>euroticism</p></th>
+
+    </tr>
+    <tr>
+        <td>@Math.Round(@ViewBag.Openness,1)</td>
+        <td>@Math.Round(@ViewBag.Conscientiousness,1)</td>
+        <td>@Math.Round(@ViewBag.Extraversion,1)</td>
+        <td>@Math.Round(@ViewBag.Agreeableness,1)</td>
+        <td>@Math.Round(@ViewBag.Neuroticism,1)</td>
+
+    </tr>
+</table>
+
+<h3>Openness</h3>
+<p>
+    Openness to experience has been described as the depth and complexity of an individual’s mental life and experiences.
+    It is also sometimes called intellect or imagination. Openness to experience concerns an individual’s willingness to 
+    try to new things, to be vulnerable, and the ability to think outside the box.
+    <br/>
+    <br/>
+    An individual who is high in openness to experience is likely someone who has a love of learning, enjoys the arts, 
+    engages in a creative career or hobby, and likes meeting new people.
+    An individual who is low in openness to experience probably prefers routine over variety, sticks to what they know, 
+    and prefers less abstract arts and entertainment.
+</p>
+<h3>Conscientiousness</h3>
+<p>
+    Conscientiousness is a trait that can be described as the tendency to control impulses and act in socially acceptable 
+    ways, behaviors that facilitate goal-directed behavior. Conscientious people excel in their 
+    ability to delay gratification, work within the rules, and plan and organize effectively.
+    <br />
+    <br />
+    Someone who is high in conscientiousness is likely to be successful in school and in their career, to excel in leadership 
+    positions, and to doggedly pursue their goals with determination and forethought.
+    A person who is low in conscientiousness is much more likely to procrastinate, to be flighty, impetuous, and impulsive.
+</p>
+<h3>Extraversion</h3>
+<p>
+    This factor has two familiar ends of the spectrum: extroversion and introversion. It concerns where an individual draws 
+    their energy and how they interact with others. In general, extroverts draw energy or “recharge” from interacting with others,
+    while introverts get tired from interacting with others and replenish their energy from solitude.
+    <br />
+    <br />
+    People high in extroversion tend to seek out opportunities for social interaction, where they are often the “life of the party.” 
+    They are comfortable with others, gregarious, and prone to action rather than contemplation.
+    People low in extroversion are more likely to be people “of few words,” people who are quiet, introspective, reserved, and thoughtful.
+</p>
+<h3>Agreeableness</h3>
+<p>
+    This factor concerns how well people get along with others. While extroversion concerns sources of energy and the pursuit of 
+    interactions with others, agreeableness concerns your orientation to others. It is a construct that rests on how you generally 
+    interact with others.
+    <br/>
+    <br/>
+    People high in agreeableness tend to be well-liked, respected, and sensitive to the needs of others. They likely have few enemies, 
+    are sympathetic, and affectionate to their friends and loved ones, as well as sympathetic to the plights of strangers.
+    People on the low end of the agreeableness spectrum are less likely to be trusted and liked by others. They tend to be callous,
+    blunt, rude, ill-tempered, antagonistic, and sarcastic. Although not all people who are low in agreeableness are cruel or abrasive, 
+    they are not likely to leave others with a warm fuzzy feeling.
+</p>
+<h3>Neuroticism</h3>
+<p>
+    Neuroticism is the one Big Five factor in which a high score indicates more negative traits. Neuroticism is not a factor of 
+    meanness or incompetence, but one of confidence and being comfortable in one’s own skin. It encompasses one’s emotional 
+    stability and general temper.
+    <br />
+    <br />
+    Those high in neuroticism are generally given to anxiety, sadness, worry, and low self-esteem. They may be temperamental 
+    or easily angered, and they tend to be self-conscious and unsure of themselves.
+    Individuals who score on the low end of neuroticism are more likely to feel confident, sure of themselves, and adventurous. 
+    They may also be brave and unencumbered by worry or self-doubt.
+</p>
+
+<br />
+
+<p>
+    @using (Html.BeginForm("Index", "Interests")) {
+    <input type="submit" value="Continue to next part   &raquo;" />
+    }
+</p>
+
+

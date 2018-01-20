@@ -149,7 +149,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\QuestionsController.cs" />
+    <Compile Include="Controllers\Interests1Controller.cs" />
+    <Compile Include="Controllers\InterestsController.cs" />
+    <Compile Include="Controllers\Surveys1Controller.cs" />
     <Compile Include="Controllers\SurveysController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -162,10 +164,21 @@
     <Compile Include="Migrations\201711160231339_SurveyAdded.Designer.cs">
       <DependentUpon>201711160231339_SurveyAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712011742096_survey-complete.cs" />
+    <Compile Include="Migrations\201712011742096_survey-complete.Designer.cs">
+      <DependentUpon>201712011742096_survey-complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801121901368_tagAdded3.cs" />
+    <Compile Include="Migrations\201801121901368_tagAdded3.Designer.cs">
+      <DependentUpon>201801121901368_tagAdded3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801202110122_strLen1.cs" />
+    <Compile Include="Migrations\201801202110122_strLen1.Designer.cs">
+      <DependentUpon>201801202110122_strLen1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Capstone490Context.cs" />
     <Compile Include="Models\Interests.cs" />
-    <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Survey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -207,16 +220,27 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Questions\Create.cshtml" />
-    <Content Include="Views\Questions\Delete.cshtml" />
-    <Content Include="Views\Questions\Details.cshtml" />
-    <Content Include="Views\Questions\Edit.cshtml" />
-    <Content Include="Views\Questions\Index.cshtml" />
     <Content Include="Views\Surveys\Create.cshtml" />
     <Content Include="Views\Surveys\Delete.cshtml" />
     <Content Include="Views\Surveys\Details.cshtml" />
     <Content Include="Views\Surveys\Edit.cshtml" />
     <Content Include="Views\Surveys\Index.cshtml" />
+    <Content Include="Views\Interests\Create.cshtml" />
+    <Content Include="Views\Interests\Delete.cshtml" />
+    <Content Include="Views\Interests\Details.cshtml" />
+    <Content Include="Views\Interests\Edit.cshtml" />
+    <Content Include="Views\Interests\Index.cshtml" />
+    <Content Include="Views\Surveys1\Create.cshtml" />
+    <Content Include="Views\Surveys1\Delete.cshtml" />
+    <Content Include="Views\Surveys1\Details.cshtml" />
+    <Content Include="Views\Surveys1\Edit.cshtml" />
+    <Content Include="Views\Surveys1\Index.cshtml" />
+    <Content Include="Views\Surveys\OCEAN_Result.cshtml" />
+    <Content Include="Views\Interests1\Create.cshtml" />
+    <Content Include="Views\Interests1\Delete.cshtml" />
+    <Content Include="Views\Interests1\Details.cshtml" />
+    <Content Include="Views\Interests1\Edit.cshtml" />
+    <Content Include="Views\Interests1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -240,6 +264,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711160231339_SurveyAdded.resx">
       <DependentUpon>201711160231339_SurveyAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712011742096_survey-complete.resx">
+      <DependentUpon>201712011742096_survey-complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801121901368_tagAdded3.resx">
+      <DependentUpon>201801121901368_tagAdded3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801202110122_strLen1.resx">
+      <DependentUpon>201801202110122_strLen1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
