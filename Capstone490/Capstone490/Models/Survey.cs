@@ -12,7 +12,6 @@ namespace Capstone490.Models
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Unique Tag or Name")]
-        [StringLength(30, ErrorMessage = "Must be at less than 30 character long.")]
         public string Tag { get; set; }
 
         [Required(ErrorMessage = "Required")]

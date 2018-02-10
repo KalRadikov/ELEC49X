@@ -95,4 +95,5 @@ C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.SurveyAdded.resources
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.surveycomplete.resources
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.tagAdded3.resources
-C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.strLen1.resources
+C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.strlength1.resources
+C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Debug\Capstone490.Migrations.strlength2.resources

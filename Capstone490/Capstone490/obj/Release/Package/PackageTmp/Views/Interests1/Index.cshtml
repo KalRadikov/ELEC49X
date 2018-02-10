@@ -9,6 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
 <table class="table">
     <tr>
         <th>
@@ -391,3 +392,8 @@
 }
 
 </table>
+
+@using (Html.BeginForm("ExportToExcel", "Interests1", FormMethod.Post))
+{
+    <input type="submit" value="Export to Excel" class="button" />
+}

@@ -14,6 +14,7 @@ namespace Capstone490.Models
         [Display(Name = "Unique Tag or Name")]
         public string Tag { get; set; }
 
+
         [Required(ErrorMessage = "Required")]
         [Display(Name = "General: Sports")]
         [Range(1, 5, ErrorMessage = "Score must be 1 - 5")]
@@ -369,7 +370,7 @@ namespace Capstone490.Models
         public int Q59 { get; set; }
 
         [Required(ErrorMessage = "Required")]
-        [Display(Name = "Relationship Status: 1 = Single, 2 = Dating, 3 = Married, 4 = Divorced, 5 = Widdowed")]
+        [Display(Name = "Relationship Status: 1 = Single, 2 = Dating, 3 = Married, 4 = Divorced, 5 = Widowed")]
         [Range(1, 5, ErrorMessage = "Score must be 1 - 5")]
 
         public int Q60 { get; set; }

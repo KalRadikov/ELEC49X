@@ -1,15 +1,21 @@
 ﻿@model IEnumerable<Capstone490.Models.Survey>
 
 @{
-    ViewBag.Title = "Survey";
+    ViewBag.Title = "Personality";
 }
 
-<h2>Surveys</h2>
+<h2>Personality</h2>
 
 <p>
-    @Html.ActionLink("New Survey", "Create")
+    @Html.ActionLink("New Personality Quiz", "Create")
 </p>
-<table class="table">
+
+<br />
+<br />
+<p>
+    @ViewBag.SurveyCount Personality surveys filled out so far!
+</p>
+@*<table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Tag)
@@ -23,12 +29,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Tag)
         </td>
-        <td>
-            @*@Html.ActionLink("Edit", "Edit", new { id=item.SurveyID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.SurveyID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.SurveyID })*@
-        </td>
     </tr>
 }
 
-</table>
+</table>*@

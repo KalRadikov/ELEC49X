@@ -156,6 +156,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\OCEAN.cs" />
     <Compile Include="Migrations\201710300021421_InitialCreate.cs" />
     <Compile Include="Migrations\201710300021421_InitialCreate.Designer.cs">
       <DependentUpon>201710300021421_InitialCreate.cs</DependentUpon>
@@ -172,19 +173,28 @@
     <Compile Include="Migrations\201801121901368_tagAdded3.Designer.cs">
       <DependentUpon>201801121901368_tagAdded3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201801202110122_strLen1.cs" />
-    <Compile Include="Migrations\201801202110122_strLen1.Designer.cs">
-      <DependentUpon>201801202110122_strLen1.cs</DependentUpon>
+    <Compile Include="Migrations\201801202332081_strlength1.cs" />
+    <Compile Include="Migrations\201801202332081_strlength1.Designer.cs">
+      <DependentUpon>201801202332081_strlength1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801202359131_strlength2.cs" />
+    <Compile Include="Migrations\201801202359131_strlength2.Designer.cs">
+      <DependentUpon>201801202359131_strlength2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Capstone490Context.cs" />
     <Compile Include="Models\Interests.cs" />
     <Compile Include="Models\Survey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ExcelViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Atilla_Headshot.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Kal_Headshot.jpg" />
+    <Content Include="Content\Mack_Headshot.jpg" />
+    <Content Include="Content\Queens-Logo-Transparent-Background.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -271,8 +281,11 @@
     <EmbeddedResource Include="Migrations\201801121901368_tagAdded3.resx">
       <DependentUpon>201801121901368_tagAdded3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801202110122_strLen1.resx">
-      <DependentUpon>201801202110122_strLen1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801202332081_strlength1.resx">
+      <DependentUpon>201801202332081_strlength1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801202359131_strlength2.resx">
+      <DependentUpon>201801202359131_strlength2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

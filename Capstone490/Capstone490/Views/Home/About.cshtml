@@ -5,3 +5,8 @@
 <h3>OCEAN Personality Test</h3>
 
 <p>This is the website which we will be hosting our OCEAN Capstone Project</p>
+
+@using (Html.BeginForm("ExportToExcel", "Interests1", FormMethod.Post))
+{
+    <input type="submit" value="Export to Excel" class="button" />
+}

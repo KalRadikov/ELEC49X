@@ -4,8 +4,8 @@
 
 <div class="jumbotron">
     <img src="http://www.rivallab.com/wp-content/uploads/2015/08/Queens-Logo-Transparent-Background.png" style="width:100%;height:100%;">
-    <h1>Personality Analysis</h1>
-    <p class="lead">ELEC 490 Capstone Project</p>
+    <h1>Personality: A Statistical Analysis</h1>
+    <p class="lead">ELEC 49X Capstone Project</p>
     @*<p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
 
@@ -13,22 +13,19 @@
     <div class="col-md-4">
         <h2>Step 1</h2>
         <p>
-            Have a unique tag or name to use as an identifier for yourself. <br/>
-            Can be any string as long as you keep it consistent. <br />
+            Have a unique tag or name so we can match your personality and interests quizzes. <br />
         </p>
     </div>
     <div class="col-md-4">
         <h2>Step 2</h2>
-        <p>Click on <u>Surveys</u> in the ribbon above. <br />
-        Click <u>New Survey</u>.<br/>
-        Fill in the questions and use your unique tag.<br/>
+        <p>
+        @Html.ActionLink("Complete personality quiz","Create", "Surveys")<br/>
         </p>
     </div>
     <div class="col-md-4">
         <h2>Step 3</h2>
-        <p>Click on <u>Interests</u> in the ribbon above.<br />
-        Click <u>New Interests Survey</u>. <br />
-        Fill in the questions and use your unique tag.<br />
+        <p>
+        @Html.ActionLink("Then complete interests quiz", "Create", "Interests") <br />
         </p>
     </div>
 </div>

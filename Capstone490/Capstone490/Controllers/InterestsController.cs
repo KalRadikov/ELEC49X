@@ -17,6 +17,7 @@ namespace Capstone490.Controllers
         // GET: Interests
         public ActionResult Index()
         {
+            ViewBag.InterestCount = db.Interests.Count();
             return View(db.Interests.ToList());
         }
 

@@ -17,6 +17,7 @@ namespace Capstone490.Controllers
         // GET: Surveys
         public ActionResult Index()
         {
+            ViewBag.SurveyCount = db.Surveys.Count();
             return View(db.Surveys.ToList());
         }
 

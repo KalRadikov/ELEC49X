@@ -95,3 +95,5 @@ C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Capstone490.csproj.CoreCompileInputs.cache
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Capstone490.dll
 C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Capstone490.pdb
+C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Capstone490.Migrations.strlength1.resources
+C:\Users\kalra\OneDrive\Documents\Queen's\Year 4\ELEC49X\Capstone490\Capstone490\obj\Release\Capstone490.Migrations.strlength2.resources

@@ -7,9 +7,14 @@
 <h2>Interests</h2>
 
 <p>
-    @Html.ActionLink("New Interest Survey", "Create")
+    @Html.ActionLink("New Interests Quiz", "Create")
 </p>
-<table class="table">
+<br/>
+<br/>
+<p>
+    @ViewBag.InterestCount Interest surveys filled out so far!
+</p>
+@*<table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Tag)
@@ -23,13 +28,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Tag)
         </td>
-        
-        <td>
-            @*@Html.ActionLink("Edit", "Edit", new { id=item.InterestsID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.InterestsID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.InterestsID })*@
-        </td>
     </tr>
 }
 
-</table>
+</table>*@
