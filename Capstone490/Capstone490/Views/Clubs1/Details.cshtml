@@ -1,0 +1,98 @@
+﻿@model Capstone490.Models.Club
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Club</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Openness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Openness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Conscientiousness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conscientiousness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Extraversion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Extraversion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Agreeableness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Agreeableness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Neuroticism)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Neuroticism)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClubID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

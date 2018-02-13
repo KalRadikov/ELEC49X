@@ -14,7 +14,7 @@ namespace Capstone490.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
+
         public Capstone490Context() : base("name=Capstone490Context")
         {
         }
@@ -22,5 +22,12 @@ namespace Capstone490.Models
         public System.Data.Entity.DbSet<Capstone490.Models.Survey> Surveys { get; set; }
 
         public System.Data.Entity.DbSet<Capstone490.Models.Interests> Interests { get; set; }
+
+        public System.Data.Entity.DbSet<Capstone490.Models.Club> Clubs { get; set; }
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Club>().ToTable("xClub");
+        //}
     }
 }

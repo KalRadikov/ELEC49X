@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Capstone490.Models.Club>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Openness)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Conscientiousness)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Extraversion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Agreeableness)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Neuroticism)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Weight)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Openness)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Conscientiousness)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Extraversion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Agreeableness)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Neuroticism)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Weight)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ClubID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ClubID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ClubID })
+        </td>
+    </tr>
+}
+
+</table>

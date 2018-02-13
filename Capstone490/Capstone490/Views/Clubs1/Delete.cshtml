@@ -1,0 +1,104 @@
+﻿@model Capstone490.Models.Club
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Club</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Openness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Openness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Conscientiousness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conscientiousness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Extraversion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Extraversion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Agreeableness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Agreeableness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Neuroticism)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Neuroticism)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
